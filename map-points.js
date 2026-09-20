@@ -7,13 +7,6 @@ window.SEFER_MAP_POINTS={
     "approximate": false,
     "source": "https://www.openstreetmap.org/relation/1472531"
   },
-  "mekke-2": {
-    "lat": 21.4225079,
-    "lng": 39.826189,
-    "note": "Harita kaydındaki konum",
-    "approximate": false,
-    "source": "https://www.openstreetmap.org/way/103914569"
-  },
   "mekke-3": {
     "lat": 21.4217996,
     "lng": 39.8274307,
@@ -384,5 +377,194 @@ window.SEFER_MAP_POINTS={
     "note": "Müzenin resmî sitesindeki harita konumu",
     "approximate": false,
     "source": "https://med.ethaf.com/en"
+  },
+  "medine-24": {
+    "lat": 24.4932593,
+    "lng": 39.5850716,
+    "note": "Harita kaydındaki konum",
+    "approximate": false,
+    "source": "https://en.wikipedia.org/wiki/Bir_Rumah"
+  },
+  "medine-25": {
+    "lat": 24.4370292,
+    "lng": 39.6182803,
+    "note": "Visit Madinah harita konumu",
+    "approximate": false,
+    "source": "https://visitmadinahsa.com/sa-en/destinations/Bani-Unaif-mosque"
+  },
+  "medine-26": {
+    "lat": 24.4395466,
+    "lng": 39.6153838,
+    "note": "Visit Madinah harita konumu",
+    "approximate": false,
+    "source": "https://visitmadinahsa.com/sa-en/destinations/Athq-Well-"
+  },
+  "medine-27": {
+    "lat": 24.4702837,
+    "lng": 39.615548,
+    "note": "Yaklaşık çevre · araştırma merkezi sayfasındaki harita alanı; tarihî tepenin kesin noktası değildir",
+    "approximate": true,
+    "source": "https://mawsuea.mrsc.org.sa/ar/milestones/11"
+  },
+  "medine-28": {
+    "lat": 24.43,
+    "lng": 39.61,
+    "note": "Yaklaşık bölge · Usbe; kuyunun kesin giriş noktası değildir",
+    "approximate": true,
+    "source": "https://ar.wikipedia.org/wiki/بئر_الهجيم"
+  },
+  "mekke-33": {
+    "lat": 21.92245,
+    "lng": 39.35357,
+    "note": "Yaklaşık bölge · Usfân yerleşimi; Recî Vakası’nın kesin noktası değildir",
+    "approximate": true,
+    "source": "https://www.openstreetmap.org/node/538716313"
+  },
+  "mekke-34": {
+    "lat": 21.92425,
+    "lng": 39.35085,
+    "note": "Yaklaşık konum · ziyaret kaynağındaki koordinatlar; güncel giriş teyit edilmemiştir",
+    "approximate": true,
+    "source": "https://www.albrari.com/vb/showthread.php?t=84533"
+  },
+  "mekke-35": {
+    "lat": 23.1092611,
+    "lng": 39.0943306,
+    "note": "Yaklaşık bölge · Ebvâ; Hz. Âmine’nin kabrinin kesin noktası değildir",
+    "approximate": true,
+    "source": "https://en.wikipedia.org/wiki/Al-Abwa%27"
+  },
+  "mekke-36": {
+    "lat": 21.4919,
+    "lng": 39.19,
+    "note": "Cidde’deki mezarlık alanı; Hz. Havva’ya ait olduğu kesinleşmiş bir mezar noktası değildir",
+    "approximate": true,
+    "source": "https://opensaudiarabia.com/places/tomb-of-eve/"
+  },
+  "mekke-37": {
+    "lat": 21.25771,
+    "lng": 40.39092,
+    "note": "Harita kaydındaki konum",
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/1172466826"
+  },
+  "medine-29": {
+    "lat": 24.477161,
+    "lng": 39.6878556,
+    "note": "Visit Madinah harita konumu",
+    "approximate": false,
+    "source": "https://maps.app.goo.gl/AS88ixWjvBm1JpV37"
+  },
+  "medine-30": {
+    "lat": 24.47423,
+    "lng": 39.59882,
+    "note": "Harita kaydındaki konum",
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/13999676968"
+  },
+  "mekke-38": {
+    "lat": 21.431633,
+    "lng": 39.816658,
+    "note": "Ziyaret kaynağındaki konum",
+    "approximate": false,
+    "source": "https://atlasislamica.com/tuwa-well/"
+  },
+  "mekke-39": {
+    "lat": 21.37638888888889,
+    "lng": 39.95166666666667,
+    "note": "Su yolunun envanterdeki konumu; tüm güzergâhı veya ziyaret girişini göstermez",
+    "approximate": true,
+    "source": "https://www.islamicarchitecturalheritage.com/listings/ayn-zubaydah"
+  },
+  "mekke-40": {
+    "lat": 21.4569,
+    "lng": 39.86773,
+    "note": "Harita kaydındaki konum",
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/1431652560"
+  },
+  "mekke-41": {
+    "lat": 21.439775,
+    "lng": 39.83787777777778,
+    "note": "Harita kaydındaki konum",
+    "approximate": false,
+    "source": "https://www.islamicarchitecturalheritage.com/listings/qasr-al-saqqaf-al-saqqaf-palace"
+  },
+  "mekke-42": {
+    "lat": 21.446143,
+    "lng": 39.807972,
+    "note": "Harita kaydındaki konum",
+    "approximate": false,
+    "source": "https://en.wikipedia.org/wiki/Al-Zaher_Palace_Museum"
+  },
+  "medine-31": {
+    "lat": 24.46151,
+    "lng": 39.61181,
+    "note": "Harita kaydındaki konum",
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/65542091"
+  },
+  "mekke-43": {
+    "lat": 21.43154,
+    "lng": 39.82918,
+    "note": "Eski mescidin yaklaşık konumu; yapı kaldırılmıştır.",
+    "approximate": true,
+    "source": "https://profilpelajar.com/ar/مسجد_الراية"
+  },
+  "mekke-44": {
+    "lat": 22.45,
+    "lng": 39.533333,
+    "note": "Yalnızca Kudayd bölgesi; mescidin kesin konumu doğrulanmadı.",
+    "approximate": true,
+    "source": "https://mapcarta.com/12552030"
+  },
+  "mekke-45": {
+    "lat": 21.44211,
+    "lng": 39.83826,
+    "note": "Harita kaydındaki konum",
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/way/457087891"
+  },
+  "medine-32": {
+    "lat": 24.4361416,
+    "lng": 39.6201677,
+    "note": "Nusuk’un kale alanı için verdiği konum; ayrı mescit girişi değildir.",
+    "approximate": false,
+    "source": "https://umrah.nusuk.sa/MakkahAndMadinah"
+  },
+  "mekke-46": {
+    "lat": 21.406,
+    "lng": 39.914,
+    "note": "Mina–Müzdelife arasındaki yaklaşık geçiş bölgesi; kesin vadi sınırı değildir.",
+    "approximate": true,
+    "source": "https://saudipedia.com/en/holy-sites"
+  },
+  "mekke-47": {
+    "lat": 21.35184,
+    "lng": 39.63525,
+    "note": "Cidde–Mekke otoyolundaki sınır işaretlerinden biri; tüm Harem sınırı değildir.",
+    "approximate": false,
+    "source": "https://www.openstreetmap.org/node/13136148177"
+  },
+  "medine-33": {
+    "lat": 24.4380031,
+    "lng": 39.6296318,
+    "note": "Nusuk’un İhn Kuyusu için verdiği konum",
+    "approximate": false,
+    "source": "https://umrah.nusuk.sa/MakkahAndMadinah"
+  },
+  "medine-34": {
+    "lat": 24.464005,
+    "lng": 39.6159053,
+    "note": "Bussa Kuyusu’nun tarihî yerine ait yaklaşık konum; açık kuyu değildir.",
+    "approximate": true,
+    "source": "https://prophetic-landmarks.com/ar/المدينة%20المنورة/بئر%20البصة%E2%80%8E/"
+  },
+  "mekke-48": {
+    "lat": 21.91633611111111,
+    "lng": 39.34,
+    "note": "IRCICA envanterindeki kale konumu",
+    "approximate": false,
+    "source": "https://www.islamicarchitecturalheritage.com/listings/asfan-fortress"
   }
 };
