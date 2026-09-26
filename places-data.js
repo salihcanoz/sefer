@@ -454,8 +454,8 @@ window.SEFER_PLACES={
       "id": "mekke-47",
       "name": "A‘lam al-Haram (Harem Sınır İşaretleri)",
       "type": "Sınır işaretleri · Mekke çevresi",
-      "description": "A‘lâmü’l-Harem, Mekke’deki Harem bölgesinin sınırlarını gösteren işaretlerin ortak adıdır. Mekke çevresinde farklı yol ve noktalarda bulunurlar. Bu kaydın harita işareti, Cidde–Mekke otoyolundaki sınır işaretlerinden birini gösterir; Harem sınırının tamamını temsil etmez.",
-      "query": "21.35184,39.63525",
+      "description": "A‘lâmü’l-Harem, Mekke’deki Harem bölgesinin sınırlarını gösteren işaretlerin ortak adıdır. Mekke çevresinde farklı yol ve noktalarda bulunurlar. Bu kaydın harita işareti ve fotoğrafı, Mescid-i Âişe yakınındaki Ten‘îm sınır levhasını gösterir; Harem sınırının tamamını temsil etmez.",
+      "query": "21.467006,39.801329",
       "reference": "https://uqu.edu.sa/en/jss/152618",
       "referenceLabel": "Ümmü’l-Kurâ Üniversitesi · Harem sınır işaretleri",
       "mapLabel": "Örnek sınır işaretini haritada aç"

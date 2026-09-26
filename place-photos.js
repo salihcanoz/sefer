@@ -84,11 +84,12 @@ window.SEFER_PLACE_PHOTOS={
     "caption": "Mescid-i Zülhuleyfe (Mikat Mescidi)"
   },
   "Bedir": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Badr_Saudi_Arabia_-_panoramio.jpg/500px-Badr_Saudi_Arabia_-_panoramio.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Badr_Saudi_Arabia_-_panoramio.jpg",
-    "author": "Devu Anchal",
-    "license": "CC BY 3.0",
-    "caption": "Bedir"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mountain_of_the_Angels_%28Jabal_al-Mala%27ika%29%3B_Badr%2C_Saudi_Arabia_%286%29.jpg/500px-Mountain_of_the_Angels_%28Jabal_al-Mala%27ika%29%3B_Badr%2C_Saudi_Arabia_%286%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mountain_of_the_Angels_(Jabal_al-Mala%27ika);_Badr,_Saudi_Arabia_(6).jpg",
+    "author": "Richard Mortel",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Bedir’deki Melekler Tepesi (Cebel-i Melâike)"
   },
   "Yedi Mescitler (Mesâcid-i Seb‘a)": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mosque_of_Salman_al-Farisi_at_the_Seven_Mosques%2C_Madinah%2C_Saudi_Arabia_%281%29.jpg/500px-Mosque_of_Salman_al-Farisi_at_the_Seven_Mosques%2C_Madinah%2C_Saudi_Arabia_%281%29.jpg",
@@ -389,7 +390,7 @@ window.SEFER_PLACE_PHOTOS={
     "author": "HolyArtThou",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "caption": "Ten‘îm’de Harem sınır levhası; harita başka bir sınır işaretini gösterir."
+    "caption": "Ten‘îm’de Harem sınır levhası"
   },
   "Hurma Çarşısı": {
     "url": "images/thumbs/medine-16.jpg",
@@ -406,5 +407,13 @@ window.SEFER_PLACE_PHOTOS={
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "caption": "Bilal-i Habeşi Mescidi · 2025"
+  },
+  "Benî Harâm Mağarası (Bani Haram)": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Madina_trip_71.jpg/500px-Madina_trip_71.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Madina_trip_71.jpg",
+    "author": "Ashashyou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "caption": "Sel‘ Dağı; Benî Harâm Mağarası batı yamacındadır"
   }
 };

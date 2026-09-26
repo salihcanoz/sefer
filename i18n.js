@@ -15,7 +15,7 @@ function loadDictionary(){
  if(nlDictionary)return Promise.resolve(true);
  return dictionaryLoading||=new Promise(resolve=>{
   const script=document.createElement('script');
-  script.src='nl.js?v=20260926-1';
+  script.src='nl.js?v=20260926-4';
   script.onload=()=>{setDictionary(window.SEFER_NL||{});resolve(true);};
   script.onerror=()=>{dictionaryLoading=null;script.remove();resolve(false);};
   document.head.append(script);
