@@ -4,16 +4,37 @@ const languageKey='sefer.language.v1';
 function browserLanguage(){return /^nl(?:-|$)/i.test(navigator.language||navigator.languages?.[0]||'')?'nl':'tr';}
 let language=browserLanguage();
 try{const saved=localStorage.getItem(languageKey);if(['tr','nl'].includes(saved))language=saved;}catch{}
-const nlDictionary=window.SEFER_NL||{};
-const translationPattern=new RegExp(Object.keys(nlDictionary).sort((a,b)=>b.length-a.length).map(s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'g');
+// nl.js is loaded only when Dutch is needed; Turkish visitors never download it.
+let nlDictionary=null,translationPattern=null,dictionaryLoading=null;
+function setDictionary(dictionary){
+ nlDictionary=dictionary;
+ const keys=Object.keys(dictionary).sort((a,b)=>b.length-a.length).map(s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
+ translationPattern=keys.length?new RegExp(keys.join('|'),'g'):null;
+}
+function loadDictionary(){
+ if(nlDictionary)return Promise.resolve(true);
+ return dictionaryLoading||=new Promise(resolve=>{
+  const script=document.createElement('script');
+  script.src='nl.js?v=20260926-4';
+  script.onload=()=>{setDictionary(window.SEFER_NL||{});resolve(true);};
+  script.onerror=()=>{dictionaryLoading=null;script.remove();resolve(false);};
+  document.head.append(script);
+ });
+}
+if(window.SEFER_NL)setDictionary(window.SEFER_NL);
+// A fragment only counts as a word when it is not glued to other letters ("Dil" must not match inside "Dilek").
+const wordCharacter=/[\p{L}\p{N}]/u;
+function wholeWord(match,offset,text){
+ return !(wordCharacter.test(match[0])&&wordCharacter.test(text[offset-1]||''))&&!(wordCharacter.test(match[match.length-1])&&wordCharacter.test(text[offset+match.length]||''));
+}
 function t(text){
  text=String(text??'');
- if(language!=='nl')return text;
+ if(language!=='nl'||!nlDictionary)return text;
  if(Object.hasOwn(nlDictionary,text))return nlDictionary[text];
  text=text.replace(/(\d+)\. şavtı tamamla → (\d+)\. şavta geç/g,'Voltooi ronde $1 → ga naar ronde $2')
  .replace(/Kâbe çevresindeki (\d+)\. tur/g,'Ronde $1 rond de Kaäba')
- .replace(/(\d+)\. şavt/g,'Ronde $1');
- return text.replace(translationPattern,match=>nlDictionary[match]);
+ .replace(/(\d+)\. şavt(?:ı|a|ta|tı|ın|tır)?(?![\p{L}])/gu,'Ronde $1');
+ return translationPattern?text.replace(translationPattern,(match,offset,whole)=>wholeWord(match,offset,whole)?nlDictionary[match]:match):text;
 }
 function uiLocale(){return language==='nl'?'nl-NL':'tr-TR';}
 const localizedNodes=new WeakMap(),localizedAttributes=new WeakMap();
@@ -45,12 +66,15 @@ function localizePage(){
  }finally{languageObserver.observe(document.body,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['aria-label','placeholder','title','alt']});}
 }
 let localizationQueued=false;
-const languageObserver=new MutationObserver(()=>{
- if(localizationQueued)return;localizationQueued=true;
+const languageObserver=new MutationObserver(records=>{
+ // Ignore excluded nodes such as the ritual clock, which updates every second.
+ if(localizationQueued||records.every(r=>(r.target.nodeType===1?r.target:r.target.parentElement)?.closest(excludedTranslation)))return;
+ localizationQueued=true;
  queueMicrotask(()=>{localizationQueued=false;localizePage();});
 });
 function setLanguage(next,persist=true){
  if(!['tr','nl'].includes(next))return;
+ if(next==='nl'&&!nlDictionary){loadDictionary().then(loaded=>loaded?setLanguage(next,persist):toast(t('Hollandaca dil dosyası yüklenemedi. İnternet bağlantınızı kontrol edip yeniden deneyin.')));return;}
  language=next;
  let saveFailed=false;
  if(persist)try{localStorage.setItem(languageKey,next);}catch{saveFailed=true;}

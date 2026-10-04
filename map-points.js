@@ -533,11 +533,11 @@ window.SEFER_MAP_POINTS={
     "source": "https://saudipedia.com/en/holy-sites"
   },
   "mekke-47": {
-    "lat": 21.35184,
-    "lng": 39.63525,
-    "note": "Cidde–Mekke otoyolundaki sınır işaretlerinden biri; tüm Harem sınırı değildir.",
+    "lat": 21.467006,
+    "lng": 39.801329,
+    "note": "Ten‘îm’deki Harem sınır levhası, Mescid-i Âişe yakınında; tüm Harem sınırı değildir.",
     "approximate": false,
-    "source": "https://www.openstreetmap.org/node/13136148177"
+    "source": "https://www.openstreetmap.org/node/13136149296"
   },
   "medine-33": {
     "lat": 24.4380031,
