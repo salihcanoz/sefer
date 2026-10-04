@@ -511,13 +511,6 @@ window.SEFER_MAP_POINTS={
     "approximate": true,
     "source": "https://profilpelajar.com/ar/مسجد_الراية"
   },
-  "mekke-44": {
-    "lat": 22.45,
-    "lng": 39.533333,
-    "note": "Yalnızca Kudayd bölgesi; mescidin kesin konumu doğrulanmadı.",
-    "approximate": true,
-    "source": "https://mapcarta.com/12552030"
-  },
   "mekke-45": {
     "lat": 21.44211,
     "lng": 39.83826,
