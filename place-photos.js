@@ -6,13 +6,6 @@ window.SEFER_PLACE_PHOTOS={
     "license": "CC BY 3.0",
     "caption": "Mescid-i Harâm · 2014"
   },
-  "Kâbe": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kaaba%2C_Makkah3.jpg/500px-Kaaba%2C_Makkah3.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Kaaba,_Makkah3.jpg",
-    "author": "Moataz Egbaria (معتز اغبارية)",
-    "license": "CC BY-SA 3.0",
-    "caption": "Kâbe"
-  },
   "Peygamberimizin doğduğu yer": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Site_of_the_birthplace_of_the_Prophet_Muhammad%2C_Mecca%2C_Saudi_Arabia.jpg/500px-Site_of_the_birthplace_of_the_Prophet_Muhammad%2C_Mecca%2C_Saudi_Arabia.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Site_of_the_birthplace_of_the_Prophet_Muhammad,_Mecca,_Saudi_Arabia.jpg",
