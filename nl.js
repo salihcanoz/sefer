@@ -999,5 +999,21 @@ window.SEFER_NL ={
   "Uzaklaştır": "Uitzoomen",
   "Bedir’deki Melekler Tepesi (Cebel-i Melâike)": "Berg van de Engelen (Jabal al-Mala’ika) bij Badr",
   "Sel‘ Dağı; Benî Harâm Mağarası batı yamacındadır": "De berg Sal‘; de grot van Bani Haram ligt op de westelijke helling",
-  "Lisans": "Licentie"
+  "Lisans": "Licentie",
+  "Saudipedia": "Saudipedia",
+  "Ahmed Zeki Yemanî · Hz. Hatice’nin Evi": "Ahmed Zaki Yamani · Het huis van Khadija",
+  "TDV İslâm Ansiklopedisi · Ümmü Hânî": "TDV Encyclopedie van de islam · Umm Hani",
+  "Star · Ziyaret anlatısının yer aldığı haber": "Star · Nieuwsbericht met het bezoekverslag",
+  "Duha Turizm · Osmanlı Kışlası": "Duha Turizm · Ottomaanse kazerne",
+  "Islamic Landmarks": "Islamic Landmarks",
+  "TDV İslâm Ansiklopedisi · Huneyn Gazvesi": "TDV Encyclopedie van de islam · Slag bij Hunayn",
+  "Samsun Araştırma Kültür ve Eğitim Vakfı": "Samsun Stichting voor Onderzoek, Cultuur en Onderwijs",
+  "Visit Al Madinah · Hurma çarşıları rehberi": "Visit Al Madinah · Gids voor de dadelmarkten",
+  "TDV İslâm Ansiklopedisi · Sakīfetü Benî Sâide": "TDV Encyclopedie van de islam · Saqifa van Bani Sa‘ida",
+  "Refik · Fesih Mescidi ve çevresi": "Refik · Al-Fash-moskee en omgeving",
+  "Saudipedia · Al-Fash Mosque": "Saudipedia · Al-Fash Mosque",
+  "Saudipedia · Ghars Well": "Saudipedia · Ghars Well",
+  "TDV İslâm Ansiklopedisi · Bi’rierîs": "TDV Encyclopedie van de islam · Bir Aris",
+  "Saudipedia · Sukyâ Mescidi": "Saudipedia · Suqya-moskee",
+  "Müzenin resmî sitesi · Ethaf": "Officiële website van het museum · Ethaf"
 };
