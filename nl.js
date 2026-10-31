@@ -1,5 +1,8 @@
 /* Dutch UI and explanatory prayer meanings. Arabic texts and user records remain unchanged. */
 window.SEFER_NL ={
+  "Uygulamayı yükle": "App installeren",
+  "Sefer ana ekranınıza eklendi.": "Sefer is aan uw beginscherm toegevoegd.",
+  "Safari’de Paylaş düğmesine dokunun ve “Ana Ekrana Ekle”yi seçin.": "Tik in Safari op de deelknop en kies ‘Zet op beginscherm’.",
   "Allah rızası için iki rekât ihram namazı kılmaya niyet ediyorum.": "Ik neem mij voor om twee rak‘a ihramgebed te verrichten omwille van Allah.",
   "Allah’ım, umre yapmak niyetindeyim. Onu benim için kolay kıl ve yaptığım umreyi kabul et.": "O Allah, ik ben van plan de umra te verrichten. Maak haar gemakkelijk voor mij en aanvaard mijn umra.",
   "Çağrına geldim Allah’ım, emrindeyim! Ortağın yoktur; çağrına geldim. Bütün övgü, nimet ve hükümranlık sana aittir. Senin ortağın yoktur.": "Hier ben ik, o Allah, tot Uw dienst! U hebt geen deelgenoot; hier ben ik. Alle lof, gunsten en heerschappij behoren U toe. U hebt geen deelgenoot.",

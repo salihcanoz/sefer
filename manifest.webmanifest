@@ -1,16 +1,28 @@
 {
+  "id": "./",
   "name": "Sefer · Hac ve Umre Rehberi",
   "short_name": "Sefer",
   "description": "Hac ve umre yolculuğunuz için dualar, ihram ve mikat rehberi, ziyaret yerleri ve kişisel otel bilgileriniz.",
   "lang": "tr",
+  "dir": "ltr",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#f8f9f5",
   "theme_color": "#183f35",
+  "categories": ["travel", "lifestyle", "education"],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
     { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Umre takibi", "url": "./index.html#umre", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Dualar", "url": "./index.html#dualar", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Ziyaret haritası", "url": "./index.html#harita", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Otel bilgilerim", "url": "./index.html#otel", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
   ]
 }
